@@ -1,1 +1,2 @@
-# Array-Remove-Challenge
+# array-visualizer
+Array Visualizer Program
