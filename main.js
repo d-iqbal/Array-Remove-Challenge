@@ -33,7 +33,7 @@ function draw() {
 }
 
 // Key Events 
-document.addEventListener("keydown", keydownHandler);
+document.addEventListener("keydown", keydownHandler);1
 // loop
 
 function keydownHandler(event) {
@@ -41,10 +41,9 @@ function keydownHandler(event) {
 
     if (event.code == "Digit1") {
         for (let i = 0; i < myArray.length; i++) {
-            myArray[i] += Math.random() * 400;
+            myArray.splice(0, 1) == 400;
         }     
-
     } else if (event.code == "Digit2") {
-        myArray[i] += Math.random(i);
+        myArray.splice(0, 1) == 200;    
     }  
 }
